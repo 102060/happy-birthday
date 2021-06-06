@@ -1,0 +1,118 @@
+/*
+ * General Styles
+*/
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: url('../images/background.webp');
+  font-family: 'OPTISaroneRomanNormal';
+
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 1.75rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+h1,
+h2 {
+  font-family: "OPTISaroneRomanNormal";
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/*
+ * Container Styles
+*/
+
+.header img {
+  width: 100%;
+  border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.header {
+  line-height: 0;
+}
+
+.container {
+  width: 37.5rem;
+  margin: 6.25rem auto;
+}
+
+section.intro {
+  padding: 2.5rem;
+}
+
+section.intro {
+  background: #fff;
+  border-radius: 0 0 1.25rem 1.25rem;
+}
+
+aside.left {
+  float: left;
+}
+
+aside.right {
+  float: right;
+}
+
+aside {
+  margin-right: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+
+/*
+Fonts
+*/
+
+@font-face {
+  font-family: "OPTISaroneRomanNormal";
+  src: url(../fonts/OPTISaroneRomanNormal.otf); /* IE9 Compat Modes */
+  src: url(../fonts/OPTISaroneRomanNormal.otf) format('embedded-opentype'), /* IE6-IE8 */
+       url(../fonts/OPTISaroneRomanNormal.otf) format('woff'), /* Modern Browsers */
+       url(../fonts/OPTISaroneRomanNormal.otf)  format('truetype'), /* Safari, Android, iOS */
+       url(../fonts/OPTISaroneRomanNormal.otf) format('svg'); /* Legacy iOS */
+}
+
+
